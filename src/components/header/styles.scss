@@ -1,0 +1,49 @@
+.header {
+  background-color: rgba($color: #000, $alpha: 0.8);
+}
+
+.navbar {
+  width: 996px;
+  height: 44px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #d6d6d6;
+
+  &__logo {
+    font-size: 20px;
+    width: 50px;
+    cursor: pointer;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex: 1;
+
+    li {
+      cursor: pointer;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  &__cart {
+    font-size: 20px;
+    width: 50px;
+    text-align: end;
+    cursor: pointer;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
