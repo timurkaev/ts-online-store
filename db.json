@@ -1,0 +1,35 @@
+{
+  "macs": [
+    {   
+      "id": 1,
+      "categoryId": 1,
+      "url": "https://m.media-amazon.com/images/I/71gD8WdSlaL._AC_SL1500_.jpg",
+      "categories": "Ноутбук",
+      "fullName": "Apple MacBook Air",
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "bluetooth": 5.0,
+      "OS": "macOS",
+      "year": 2020,
+      "color": "серебристый",
+      "fingerScanner": "есть",
+      "resolution": "2560x1600",
+      "refreshRate": 60,
+      "display": "IPS",
+      "displaySize": 13.3,
+      "displayType": "глянцевое",
+      "CPU": "Apple M1",
+      "CPUCores": 8,
+      "CPUThread": 8,
+      "GPU": "M1 7-core",
+      "GPUType": "втроенный",
+      "SSD": 256,
+      "RAM": 8,
+      "RAMType": "DDR4",
+      "webcam": 1.2,
+      "touchScreen": "нет",
+      "price": 91000,
+      "amount": 1,
+      "body": "алюминий"
+    }
+  ]
+}

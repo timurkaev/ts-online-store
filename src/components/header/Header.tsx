@@ -1,13 +1,13 @@
-import React from 'react'
-import './styles.scss'
-import { AiFillApple, BsBag } from 'react-icons/all'
+import React from 'react';
+import './styles.scss';
+import {AiFillApple, BsBag} from 'react-icons/all';
 
 const Header: React.FC = () => {
   return (
-    <div className='header'>
-      <div className='navbar'>
+    <div className="header">
+      <div className="navbar">
         <div className="navbar__logo">
-          <AiFillApple />
+          <AiFillApple/>
         </div>
         <ul className="navbar__list">
           <li>Магазин</li>
@@ -18,11 +18,11 @@ const Header: React.FC = () => {
           <li>Music</li>
         </ul>
         <div className="navbar__cart">
-          <BsBag />
+          <BsBag/>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

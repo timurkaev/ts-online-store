@@ -1,0 +1,31 @@
+export interface IMacs {
+  id: 1;
+  categoryId: number;
+  url: string;
+  categories: string;
+  fullName: string;
+  wifi: string;
+  bluetooth: number;
+  OS: string;
+  year: number;
+  color: string;
+  fingerScanner: string;
+  resolution: string;
+  refreshRate: number;
+  display: string;
+  displaySize: number;
+  displayType: string;
+  CPU: string;
+  CPUCores: number;
+  CPUThread: number;
+  GPU: string;
+  GPUType: string;
+  SSD: number;
+  RAM: number;
+  RAMType: string;
+  webcam: number;
+  touchScreen: string;
+  price: number;
+  amount: number;
+  body: string;
+}
