@@ -27,4 +27,4 @@ interface FetchMacsErrorAction {
 export type MacsAction =
   | FetchMacsAction
   | FetchMacsSuccessAction
-  | FetchMacsErrorAction;
+  | FetchMacsErrorAction

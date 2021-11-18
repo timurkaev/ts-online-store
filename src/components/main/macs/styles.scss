@@ -1,0 +1,100 @@
+.mac {
+  box-shadow: 0 3px 5px 0 rgba(34, 60, 80, 0.2);
+  margin-top: 80px;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+
+  &__image {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+    img {
+      width: 200px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      cursor: zoom-in;
+    }
+  }
+
+  &__price {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+
+    button {
+      width: 100px;
+      height: 40px;
+      background: #fff;
+      font-size: 18px;
+      border: 1px solid #0072ff;
+      border-radius: 10px;
+      cursor: pointer;
+
+      &:hover {
+        color: #fff;
+        background: #0072ff;
+      }
+    }
+  }
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 10px;
+
+  &__icon-close {
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  &__images {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.0);
+    transition: 1s;
+
+    img {
+      width: 650px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  .right-arrow {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    font-size: 60px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .left-arrow {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    font-size: 60px;
+    cursor: pointer;
+    user-select: none;
+
+  }
+
+}

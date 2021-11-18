@@ -1,7 +1,9 @@
 export interface IMacs {
   id: 1;
   categoryId: number;
-  url: string;
+  url: {
+    img: string
+  } ;
   categories: string;
   fullName: string;
   wifi: string;
