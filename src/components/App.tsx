@@ -3,18 +3,21 @@ import Header from './header/Header';
 import {useDispatch} from 'react-redux';
 import {fetchMacs} from '../store/actions/macs';
 import Main from './main/Main';
+import {BrowserRouter} from 'react-router-dom';
 
 const App: React.FC = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(fetchMacs());
-  }, []); // Get macbooks keys
+  }, []);
 
   return (
     <div className="App">
-      <Header />
-      <Main />
+      <BrowserRouter>
+        <Header />
+        <Main />
+      </BrowserRouter>
     </div>
   );
 };

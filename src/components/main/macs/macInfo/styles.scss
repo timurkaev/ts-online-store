@@ -1,0 +1,13 @@
+.product__info {
+  box-shadow: 0 0 4px 0 rgba(34, 60, 80, 0.2);
+  padding: 10px;
+  margin-top: 50px;
+
+  .product__info-image {
+    display: flex;
+
+    img {
+      width: 500px;
+    }
+  }
+}
